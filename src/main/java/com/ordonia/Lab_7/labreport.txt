@@ -1,0 +1,11 @@
+1. Complete URL path for the POST EndPoint:
+http://localhost:8080/api/products
+
+2. Complete URL path and expected status code for a non-existent in the GET BY ID request
+No webpage was found for the web address: http://localhost:8080/api/products/999
+HTTP ERROR 404
+
+3.Downloadable link for the screenshot of my REST client showing a successful POST request that resulted in a 201 Created status code
+command used: curl -v -X POST http://localhost:8080/api/products   -H "Content-Type: application/json"   -d '{"name": "Iphone17ProMax", "price": 9999999.99}'
+
+Link: https://fileport.io/yAYvktDwctRs
